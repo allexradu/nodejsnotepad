@@ -1,0 +1,14 @@
+### Getting friends
+GET http://localhost:3000/friends
+Accept: application/json
+
+### Adding a friend
+POST http://localhost:3000/friends
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "Ryan Dahl22"
+}
+
+###
